@@ -1,0 +1,155 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(./andy-holmes-xA26xebY3dw-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    background: rgba( 255, 255, 255, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 6px );
+        -webkit-backdrop-filter: blur( 6px );
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-bottom:none;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    width: 200px;
+    height: 210px;
+}
+.main2{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-top: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 300px;
+    height: 300px;
+    flex-direction: column;
+}
+.img > img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+
+}
+
+.main2 > .text{
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+.text > h1{
+    margin-top: 10px;
+    font-weight:bolder;
+}
+.text > p{
+    font-weight: 800;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+.icon > a > img{
+    width: 40px;
+}
+
+
+
+@media (max-width: 768px){
+    body {
+        background-image: url(https://images.unsplash.com/photo-1612535500858-06e800115812?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .main{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 100px;
+        background: rgba( 255, 255, 255, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 6px );
+        -webkit-backdrop-filter: blur( 6px );
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+        border-bottom:none;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        width: 50px;
+        height: 40px;
+    }
+    .img > img{
+        width: 170px;
+        height:170px;
+        border-radius: 50%;
+    }
+    .main2{
+        padding: 100px;
+        background: rgba( 255, 255, 255, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 6px );
+        -webkit-backdrop-filter: blur( 6px );
+        border-top: none;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        width: 50px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+    }
+    .main2 > .text{
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    .text > h1{
+        font-weight:bolder;
+    }
+    .text > p{
+        font-weight: 800;
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        gap: 10px;
+    }
+    .icon > a > img{
+        width: 40px;
+    }
+  }

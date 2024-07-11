@@ -1,0 +1,116 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-style: normal;
+    scroll-behavior: smooth;
+      
+}
+
+body{
+background-color: black;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.name{
+    color: rgb(255, 233, 207);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+    background-color:blueviolet;
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 5px solid rgb(255, 233, 207);
+    border-bottom-right-radius: 50%;
+}
+.name > h3{
+    position: absolute;
+    top: 10%;
+}
+
+.name > h1{
+    text-decoration:line-through;
+    font-size: 1.7rem;
+    font-weight: bolder;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 25%;
+    
+}
+.img > img{
+    width: 30%;
+    border: 5px solid rgb(255, 233, 207);
+    border-radius: 50%;
+}
+
+.links{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20%;
+    gap: 35px;
+}
+.links > .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    width: 230px;
+    border: 1px solid rgb(255, 233, 207);
+    border-radius: 20px;
+
+}
+.link > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 233, 207);
+    text-decoration: none;
+    height: 40px;
+    width: 230px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight:700;
+}
+
+.links :hover{
+    transition: 0.5s ease-in-out;
+    background:rgb(255, 233, 207);
+    box-shadow: inset 5px -5px 10px #666666,
+                inset -5px 5px 10px rgb(255, 233, 207);
+}
+
+a:hover{
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+.hr{
+margin-top: 7%;
+width: 50%;
+height: 1px;
+background-color: rgb(255, 233, 207);
+}
+
+.mail{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.mail > a > img{
+    width: 40px;
+    cursor: pointer;
+}
